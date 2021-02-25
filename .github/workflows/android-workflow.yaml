@@ -15,7 +15,6 @@ jobs:
 
       - name: Print contents in current directory
         run: ls -la
-
       - name: Run Unit Tests
         run: ./gradlew testDebugUnitTest
 
